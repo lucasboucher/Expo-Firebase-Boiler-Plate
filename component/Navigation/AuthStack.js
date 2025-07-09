@@ -6,7 +6,7 @@ import SignInScreen from '../../screens/SignInScreen';
 
 export default function AuthStack() {
     const MainNavigation = createNativeStackNavigator();
-    
+    console.log(test)
     return (
         <MainNavigation.Navigator initialRouteName="FirstPage" screenOptions={{ headerShown: false }}>
             <MainNavigation.Screen name="FirstScreen" component={FirstScreen} />
